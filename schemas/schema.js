@@ -39,15 +39,15 @@ export default createSchema({
           title: 'Title',
           validation: rule => rule.required(),
         },
-        {
-          name: 'coverImage',
-          type: 'image',
-          title: 'Cover Image',
-          validation: rule => rule.required(),
-          options: {
-            hotspot: true,
-          },
-        },
+        // {
+        //   name: 'coverImage',
+        //   type: 'image',
+        //   title: 'Cover Image',
+        //   validation: rule => rule.required(),
+        //   options: {
+        //     hotspot: true,
+        //   },
+        // },
         {
           name: 'date',
           type: 'datetime',
