@@ -29,9 +29,35 @@ export default createSchema({
       ],
     },
     {
-      name: 'notes',
+      name: 'portfolio',
       type: 'document',
-      title: 'Notes',
+      title: 'Portfolio',
+      fields: [
+        {
+          name: 'title',
+          title: 'Title',
+          type: 'string',
+        },
+        {
+          name: 'description',
+          title: 'Description',
+          type: 'string',
+        },
+        {
+          name: 'thumbnail',
+          type: 'image',
+          title: 'Thumbnail',
+          validation: rule => rule.required(),
+          options: {
+            hotspot: true,
+          },
+        },
+      ],
+    },
+    {
+      name: 'blog',
+      type: 'document',
+      title: 'Blog',
       fields: [
         {
           name: 'title',
