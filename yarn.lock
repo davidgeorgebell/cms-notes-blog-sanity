@@ -888,6 +888,10 @@
     fs-extra "^6.0.1"
     promise-props-recursive "^1.0.0"
 
+"@sanity/cli@^1.149.18":
+  version "1.150.7"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-1.150.7.tgz#93d943b8ffa0bcf16bf255c926a25a2503143b33"
+
 "@sanity/client@1.149.18":
   version "1.149.18"
   resolved "https://registry.npmjs.org/@sanity/client/-/client-1.149.18.tgz#b69da5a9339ced013de961971e737133e1501e8a"
@@ -3903,8 +3907,8 @@ hoist-non-react-statics@^3.3.0:
     react-is "^16.7.0"
 
 hosted-git-info@^2.1.4:
-  version "2.8.8"
-  resolved "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
 
 hsl-regex@^1.0.0:
   version "1.0.0"
